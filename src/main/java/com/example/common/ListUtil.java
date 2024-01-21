@@ -15,4 +15,12 @@ public class ListUtil {
         }
         return list;
     }
+
+    public static List<Long> fromArray(long[] arr) {
+        List<Long> list = new ArrayList<>(arr.length);
+        for (long num: arr) {
+            list.add(num);
+        }
+        return list;
+    }
 }
