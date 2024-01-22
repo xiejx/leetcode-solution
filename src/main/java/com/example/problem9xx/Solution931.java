@@ -23,7 +23,7 @@ public class Solution931 {
         }
         int min = Integer.MAX_VALUE;
 
-        if (m % 2 == 0) {
+        if (m % 2 == 1) {
             for (int num: dp0) {
                 min = Math.min(min, num);
             }
