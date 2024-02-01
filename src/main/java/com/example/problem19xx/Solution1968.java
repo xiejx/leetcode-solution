@@ -1,4 +1,4 @@
-package com.example.preblem19xx;
+package com.example.problem19xx;
 
 import java.util.Arrays;
 
